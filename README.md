@@ -76,30 +76,6 @@ PyTerm> nl: create a folder called logs
 
 ---
 
-## GPT Integration (Natural Language Commands)
-
-1. Install OpenAI client:
-
-   ```bash
-   pip install openai
-   ```
-
-2. Add your API key as an environment variable:
-
-   ```bash
-   export OPENAI_API_KEY="your_api_key_here"   # Linux/macOS
-   setx OPENAI_API_KEY "your_api_key_here"     # Windows
-   ```
-
-3. Use natural language in the terminal:
-
-   ```bash
-   PyTerm> nl: move file report.txt to archive/
-   [nl ->] mv report.txt archive/
-   ```
-
----
-
 ## Optional CLI Arguments
 
 * `--no-readline` : Disable readline (auto-completion/history)
