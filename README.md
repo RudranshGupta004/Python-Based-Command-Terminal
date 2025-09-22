@@ -48,12 +48,6 @@ This project is ideal for learning how shells work internally while practicing P
    pip install psutil
    ```
 
-   *If you want GPT-based natural language commands:*
-
-   ```bash
-   pip install openai
-   ```
-
 ---
 
 ## Usage
